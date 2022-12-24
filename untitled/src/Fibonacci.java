@@ -36,7 +36,8 @@ public class Fibonacci {
                 if (k < 1)
                     k = 1;
                 n = AllOdd(fibonacci[k]);
-                System.out.println("Số tiền đặt cược: " + fibonacci[k] +"   Số tiền thắng "+n +"   Số tiền còn lại: " + total);
+                System.out.println("Số tiền đặt cược: " + fibonacci[k]
+                        +"   Số tiền thắng "+n +"   Số tiền còn lại: " + total);
             }
         } else if (choose == 2) {
             System.out.print("Nhập số tiền cược: ");
@@ -54,7 +55,8 @@ public class Fibonacci {
                 else
                     k = k + 1;
                 n = AllOdd(fibonacci[k]);
-                System.out.println("Số tiền đặt cược: " + fibonacci[k] +"   Số tiền thắng "+n +"   Số tiền còn lại: " + total);
+                System.out.println("Số tiền đặt cược: " + fibonacci[k]
+                        +"   Số tiền thắng "+n +"   Số tiền còn lại: " + total);
             }
         }
     }
