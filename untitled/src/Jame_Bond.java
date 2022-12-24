@@ -1,8 +1,11 @@
 import java.util.Scanner;
 
-public class DiepVien_007 {
+public class Jame_Bond {
 
+    //Tổng số tiền ban đầu
     static double total = 10000.0;
+
+    //Quay ra số ngẫu nhiên number
     static int number;
 
     //Chọn cách chơi

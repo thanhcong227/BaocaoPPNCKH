@@ -2,8 +2,13 @@ import java.util.Scanner;
 
 public class Fibonacci {
 
+    //Tổng số tiền ban đầu
     static double total = 10000.0;
+
+    //Quay ra số ngẫu nhiên number
     static int number;
+
+    //Mảng fibonacci
     static int[] fibonacci = new int[100];
 
     //Chọn cách chơi
